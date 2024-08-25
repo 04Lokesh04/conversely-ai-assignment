@@ -1,0 +1,65 @@
+.tradecontainer{
+    background-color: aliceblue;
+    height: 100vh;
+    width: 100vw;
+}
+
+.trade-heading{
+    color: black;
+    font-size: 25px;
+    font-family: "Roboto";
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.tradecard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    
+    margin-bottom: 20px;
+}
+
+.input-card{
+    height: 65px;
+    width: 255px;
+    border: 1px gray solid;
+    border-radius: 25px;
+    color:black;
+    font-size: 15px;
+    font-family: "Roboto";
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.tradebutton{
+    background-color: blueviolet;
+    color: aliceblue;
+    height: 55px;
+    width: 155px;
+    font-size: 15px;
+    font-family: "Roboto";
+    border: 0px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+
+.pricepara{
+    color: darkgreen;
+    font-size: 15px;
+    font-family: "Roboto";
+    font-weight: 400;
+}
+
+.errorpara{
+    color: red;
+    font-size: 15px;
+    font-family: "Roboto";
+    font-weight: 400;
+}

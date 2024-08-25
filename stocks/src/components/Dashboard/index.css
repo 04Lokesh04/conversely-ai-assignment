@@ -1,0 +1,57 @@
+.main{
+    background-color: aliceblue;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.dashboard-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.heading1{
+    color: black;
+    font-size: 25px;
+    font-family: "Roboto";
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.dashbutton{
+    background-color: blueviolet;
+    color: aliceblue;
+    height: 55px;
+    width: 155px;
+    font-size: 15px;
+    font-family: "Roboto";
+    border: 0px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+
+.holdingscard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+.hold{
+    list-style-type: none;
+    color: cadetblue;
+    font-size: 15px;
+    font-family: "Roboto";
+    font-weight: 400;
+}
+
+.dashpara{
+    color: red;
+    font-size: 15px;
+    font-family: "Roboto";
+    font-weight: 400;
+}
